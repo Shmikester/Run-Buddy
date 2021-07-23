@@ -69,7 +69,8 @@ section {
     padding: 60px;
 }
 
-/* hero art */
+/* START hero */
+/* background image */
 .hero {
     height: 600px;
     background-image: url("../images/hero-bg.jpg");
@@ -102,7 +103,7 @@ section {
     margin: 5px 0 15px 0;
 }
 
-.form-input {
+.form-hero-input {
     border: 1px solid #024e76;
     display: block;
     padding:  7px 15px;
@@ -111,3 +112,18 @@ section {
     width: 100%;
     margin-bottom: 15px;
 }
+
+.form-hero label {
+    margin: 0 5px;
+}
+
+.form-hero button {
+    color: #fce138;
+    font-weight: bold;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+/* END hero */
